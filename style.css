@@ -1,15 +1,14 @@
+*html{
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
-    font-family: system-ui;
+  font-family: 'Roboto', sans-serif;
     background: #875631;
     color: white;
     text-align: center;
   }
 
-
-:root {
-    --main-radius: 5px;
-    --main-padding: 5px;
-  }
   
   .container {
     display: grid;
@@ -22,10 +21,10 @@ body {
       "sidebar content1 content2 content3"
       "footer footer footer footer";
     grid-gap: 0.2rem;
-    font-family: "Inter", sans-serif;
-    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 20px;
     color: #004d40;
     text-align: center;
   }
@@ -49,6 +48,9 @@ body {
     border: solid white 5px;
     color: white;
     text-transform: none;
+    text-align: justify;
+    padding-left: 45px;
+    padding-right: 45px;
   }
   
   #sidebar {
@@ -70,6 +72,8 @@ body {
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
     border: solid white 5px;
+    color: white;
+    text-transform: none;
   }
   
   #content2 {
@@ -78,6 +82,8 @@ body {
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
     border: solid white 5px;
+    color: white;
+    text-transform: none;
   }
   
   #content3 {
@@ -86,17 +92,21 @@ body {
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
     border: solid white 5px;
+    color: white;
+    text-transform: none;
   }
   
   footer {
     background:#875631;
     grid-area: footer;
     border-radius: var(--main-radius);
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
     font-size: 20px;
     color: white;
     border: solid white 5px;
+    text-transform: none;
+    padding-left: 15px;
  
   }
   
@@ -129,7 +139,7 @@ body {
 #sidebar img{
     max-width: 180px;
     align-items: center;
-    padding-left: 60px;
+    padding-left: 20px;
 }
 #sidebar h1{
     font-size: 30px;
@@ -140,3 +150,12 @@ main img{
     max-width: 250px;
     text-transform: none;
 }
+#content2 img{
+  max-width: 200px;
+
+}
+#content3 img{
+  max-width: 200px;
+  
+}
+
